@@ -15,7 +15,7 @@ from custom_components.bluetti_bt.bluetti_bt_lib.devices.ac500 import AC500
 from custom_components.bluetti_bt.bluetti_bt_lib.devices.eb3a import EB3A
 from custom_components.bluetti_bt.bluetti_bt_lib.devices.ep500 import EP500
 from custom_components.bluetti_bt.bluetti_bt_lib.devices.ep500p import EP500P
-from custom_components.bluetti_bt.bluetti_bt_lib.devices.ep600 import EP600
+from custom_components.bluetti_bt.bluetti_bt_lib.devices.ep2000 import EP2000
 from custom_components.bluetti_bt.bluetti_bt_lib.devices.ep760 import EP760
 from custom_components.bluetti_bt.bluetti_bt_lib.devices.ep800 import EP800
 
