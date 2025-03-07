@@ -6,9 +6,9 @@ from ..utils.commands import ReadHoldingRegisters
 from ..base_devices.ProtocolV2Device import ProtocolV2Device
 
 
-class EP600(ProtocolV2Device):
+class EP2000(ProtocolV2Device):
     def __init__(self, address: str, sn: str):
-        super().__init__(address, "EP600", sn)
+        super().__init__(address, "EP2000", sn)
 
         # Details
         self.struct.add_uint_field("battery_range_start", 2022)
@@ -50,7 +50,7 @@ class EP600(ProtocolV2Device):
         self.struct.add_decimal_field("grid_current_phase2", 1321, 1)
         self.struct.add_decimal_field("grid_current_phase3", 1327, 1)
 
-        # EP600 AC Output
+        # EP2000 AC Output
         self.struct.add_decimal_field("ac_output_frequency", 1500, 1)
         self.struct.add_int_field("ac_output_power_phase1", 1510)
         self.struct.add_int_field("ac_output_power_phase2", 1517)
