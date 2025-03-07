@@ -28,7 +28,7 @@ After the installation, you can use this button to install the integration:
 - EB3A
 - EP500
 - EP500P
-- EP600 (tested)
+- EP2000 (testing !!!!!!!!!!!!!!)
 - EP760 (basic data)
 - EP800 (basic data)
 
