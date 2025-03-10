@@ -21,7 +21,7 @@ SUPPORTED_MODELS = [
     "EB3A",
     "EP500",
     "EP500P",
-    "EP600",
+    "EP2000",
     "EP760",
     "AC180P",
 ]
