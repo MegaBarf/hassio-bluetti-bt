@@ -1,4 +1,4 @@
-"""EP600 fields."""
+"""EP2000 fields."""
 
 from typing import List
 
